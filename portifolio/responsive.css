@@ -1,0 +1,175 @@
+@media screen and (max-width: 768px) {
+
+
+    *{
+        
+        margin: 0px;
+        padding: 0px;
+    }
+
+
+
+    .minhaimg{
+        border-radius: 50%;
+        margin-bottom: 80px;
+    }
+
+    #pf {
+        text-align: justify;
+        width: 370px;
+        padding-top: 70px;
+        padding: 0px;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    a{
+        text-align: center;
+        font-size: 2vh;
+    }
+    p{
+        
+        font-size: 20px;
+        text-align: center;
+        width: 370px;
+        
+    }
+    .projetos {
+        padding-top: 80px;
+    }
+
+
+    div#ft1 {
+        margin-bottom: 40px;
+    }
+
+    .projetos > .foto{
+        display: block;
+        margin: auto;
+        width: 250px;
+        height: 250px;
+    }
+
+    .foto > div{
+        width: 14px;
+        height: 14px;
+        display: inline-flex;
+        margin: auto;
+        position: relative;
+        right: 80px;
+    }
+
+    #b1{
+        padding-bottom: 20px;
+    }
+    .foto::before {
+        display: block;
+    }
+
+    .foto .texto {
+        display: block;
+    }
+
+    #py, #js, #html, #css {
+        
+        text-align:center;
+        padding-left: 60px;
+    }
+
+    
+    div.progress-bar {
+        width: 390px;
+        height: 18px;
+    }
+
+    div.Linguagenseframeworks > h2.ldep, h2.ldem{
+        font-size: 48px;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    span#burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    menu {
+        margin-right: 20px;
+    }
+
+    menu > ul > li{
+        padding-top: 25px;
+        padding-right: 15px;
+        background: none;
+        font-size: 20px;
+        display: inline-block;
+    }
+    
+    menu > ul > li > a {
+        border: none;
+        background: none;
+    }
+
+    menu > ul > li > a:hover {
+        
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+        transition: 0.5s all;
+    }
+
+    p#pf {
+        width: 80vw;
+    }
+
+}
+
+@media screen and (min-width: 1024px){
+
+    
+
+    span#burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    menu {
+        margin-right: 20px;
+    }
+
+    menu > ul > li{
+        padding-top: 25px;
+        padding-right: 15px;
+        background: none;
+        font-size: 20px;
+        display: inline-block;
+    }
+    
+    menu > ul > li > a {
+        border: none;
+        background: none;
+    }
+
+    menu > ul > li > a:hover {
+        
+        color: rgb(0, 0, 0);
+        border-radius: 15px;
+        transition: 1s;
+    }
+
+    p#pf {
+        width: 30vw;
+    }
+    
+}

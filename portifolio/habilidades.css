@@ -1,0 +1,97 @@
+.Linguagenseframeworks h2{
+
+    padding-bottom: 100px;
+    margin-top: 60px;
+}
+
+.Linguagenseframeworks > h2 {
+    
+    font-size: 60px;
+
+}
+
+span#colorh2{
+    color: rgb(12, 188, 241);
+    font-style: normal;
+    display: inline-block;
+    background-color: rgb(5, 7, 10);
+    border-radius: 20px;
+    box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.555);
+}
+
+span#jscolor{
+    color: yellow;
+    font-style: normal;
+    
+}
+
+span#pycolor{
+    color: rgb(35, 226, 18);
+    font-style: normal;
+}
+span#htmlcolor{
+    color: rgb(255, 166, 0);
+    font-style: normal;
+}
+span#csscolor{
+    color: rgb(7, 226, 241);
+    font-style: normal;
+}
+#js{
+    margin-right: 240px;
+}
+
+#py{
+    
+    padding-top: 50px;
+    margin-right: 280px;
+}
+
+#html{
+    margin-right: 280px;
+}
+
+#css{
+    padding-top: 50px;
+    margin-right: 310px;
+}
+
+.progress-bar {
+    
+    width: 500px;
+    height: 20px;
+    background-color: rgba(255, 255, 255, 0.404);
+    margin: auto;
+    border-radius: 20px;
+}
+
+.progress {
+    height: 100%;
+    background-color: rgb(144, 10, 221);
+    width: 0%;
+    transition: width 3.5s ease-in-out;
+    border-radius: 20px;
+}
+
+#p1 {
+    background-color: yellow;
+}
+
+#p2 {
+    background-color: rgb(47, 255, 47);
+}
+
+#p3 {
+    background-color: orange;
+}
+
+#p4 {
+    background-color: aqua;
+}
+
+
+
+
+
+
+
