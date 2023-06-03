@@ -1,3 +1,9 @@
+
+
+.projetos {
+    padding-top: 20px;
+}
+
 .foto {
     position: relative;
     display: inline-block;
@@ -58,15 +64,22 @@
     
 }
 
-.foto > div {
-    width: 20px;
-    height: 20px;
+
+
+div#ft1 {
+    margin-bottom: 40px;
+}
+
+
+
+.foto #bol1, #bol2, #bol3{
+    width: 14px;
+    height: 14px;
     border: 1px solid black;
     border-radius: 50%;
     display: inline-flex;
-    position: relative;
-    top: 5px;
-    right: 105px;
+    margin: auto;
+
 }
 
 .foto > div#bol1 {
@@ -78,5 +91,17 @@
 .foto > div#bol3 {
     background-color: green;
 }
+
+.foto > div{
+    width: 14px;
+    height: 14px;
+    display: inline-flex;
+    margin: auto;
+    position: relative;
+    right: 80px;
+}
+
+
+
 
 

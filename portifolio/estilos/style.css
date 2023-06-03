@@ -58,12 +58,18 @@ menu > ul > li, a:hover {
 }
 
 h1, h2{
-    font-size: 2vw;
+    font-size: 9vw;
     padding-top: 80px;
     padding-bottom: 60px;
 }
 
-
+p{
+        
+    font-size: 3.4vw;
+    text-align: justify;
+    width: 370px;
+    
+}
 
 a{  
     text-decoration: none;
@@ -95,7 +101,7 @@ span{
 }
 
 #pf{
-    width: 90vw;
+    width: 70vw;
     font-size: 3.4vw;
     text-align: justify;
 }

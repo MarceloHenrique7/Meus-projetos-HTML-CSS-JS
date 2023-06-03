@@ -1,6 +1,13 @@
 @charset "UTF-8";
 
 
+.RedesSociais a{
+    text-align: center;
+    font-size: 3.4vw;
+    line-height: 50px;
+}
+
+
 div.RedesSociais a:hover {
     color: aqua;
     text-decoration: none;
