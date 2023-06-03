@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+
+div.contatos > p{
+    display: block;
+    margin: auto;
+}
+
+div.contatos{
+    padding-bottom: 200px;
+    text-align: center;
+}
+
+.whats{
+    text-decoration: underline;
+}
+
+.links:hover{
+    text-decoration: underline;
+}
+
+.contatos > p > span{
+    font-weight: bold;
+    color: rgb(211, 127, 18);
+}

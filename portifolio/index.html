@@ -5,21 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,200" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="projetos.css">
-    <link rel="stylesheet" href="habilidades.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/projetos.css">
+    <link rel="stylesheet" href="estilos/habilidades.css">
+    <link rel="stylesheet" href="estilos/responsive.css">
+    <link rel="stylesheet" href="estilos/contatos.css">
+    <link rel="stylesheet" href="estilos/redessociais.css">
     <title>My Web Site</title>
 </head>
 <body onresize="mudouTamanho()">
-    <div class="container">
         <header>
-            
             <div class="divheader">
                 <a href=""><img src="imagens/logo.png" alt="Minha logo" class="logo"></a>
                 <span id="burguer" class="material-symbols-outlined" onclick="cliquemenu()">menu</span>
-            </div>
-            
+            </div>  
+
             <menu id="menu">
                 <ul>
                     <li><a href="#">Sobre Mim</a></li>
@@ -28,9 +28,9 @@
                     <li><a href="#">Contatos</a></li>
                 </ul>
             </menu>
+
         </header>
         <main>
-            <aside>
                 <h1 id="h1bod">SOBRE <span id="colorh2">MIM</span></h1>
                 <section class="sobremim">
                     
@@ -43,7 +43,9 @@
                         <span>Com 1 ano de experiência</span>, estou comprometido em entregar soluções criativas, eficientes e de alta qualidade aos meus clientes.
                         Explore o portfólio para conhecer mais sobre meu trabalho e habilidades. <span>Estou disponível para novas oportunidades</span> e colaborações, então sinta-se à vontade para entrar em contato.</p>
                     </div>
+
                 </section>
+
                 <section>
                     <div class="projetos">
                         <h1>Meus <span id="colorh2">Projetos</span></h1>
@@ -87,6 +89,7 @@
                         </div>
                     </div>
                 </section>
+
                 <section>
                     <div class="RedesSociais">
                         <h1>Redes <span id="colorh2">Sociais</span> </h1>
@@ -96,6 +99,9 @@
                             <a class="links" href="https://www.linkedin.com/in/marcelo-henrique-71a2bb275/" target="_blank"><li><img src="imagens/linkedin.png" alt="Logo linkedin" height="30px"> Meu perfil no LinkeDin</li></a>
                         </ul>
                     </div>
+                </section>
+
+                <section>
                     <div class="contatos">
                         <h1><span id="colorh2">Contatos</span></h1>
                         <p>Número de Telefone para Contato: <span>+55 (87)988028002</span></p>
@@ -104,8 +110,6 @@
                         
                     </div>
                 </section>
-            </aside>
-
         </main>
         <script src="script.js"></script>
     </div>

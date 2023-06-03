@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+
+div.RedesSociais a:hover {
+    color: aqua;
+    text-decoration: none;
+}
