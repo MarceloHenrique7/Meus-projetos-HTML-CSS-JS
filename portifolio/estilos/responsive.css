@@ -1,3 +1,14 @@
+@media screen and (min-width: 631px) and (max-width: 767px) {
+    div.button-vermais > p#vermais-p {
+        display: none;
+    }
+
+    div.ft {
+        display: inline-block;
+    }
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
     span#burguer {
         display: none;
