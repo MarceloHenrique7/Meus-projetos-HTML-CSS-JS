@@ -67,4 +67,9 @@
         right: 100px;
     }
 
+    div.contatos p {
+        width: 60vw;
+        text-align: justify;
+    }
+
 }
