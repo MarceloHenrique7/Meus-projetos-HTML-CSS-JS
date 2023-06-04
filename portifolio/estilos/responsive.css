@@ -3,10 +3,7 @@
         display: none;
     }
 
-    header {
-        display: flex;
-        justify-content: space-between;
-    }
+    
 
     menu {
         margin-right: 20px;
@@ -35,15 +32,20 @@
     p#pf {
         width: 80vw;
     }
+    p {
+        width: 550px;
+    }
 
-}
+    .button-vermais p {
+        width: 140px;
+    }
 
-@media screen and (min-width: 1024px){
+    #meunome {
+        line-height: 90px;
+    }
 
-    
-
-    span#burguer {
-        display: none;
+    .foto {
+        width: 25vw;
     }
 
     header {
@@ -51,32 +53,4 @@
         justify-content: space-between;
     }
 
-    menu {
-        margin-right: 20px;
-    }
-
-    menu > ul > li{
-        padding-top: 25px;
-        padding-right: 15px;
-        background: none;
-        font-size: 20px;
-        display: inline-block;
-    }
-    
-    menu > ul > li > a {
-        border: none;
-        background: none;
-    }
-
-    menu > ul > li > a:hover {
-        
-        color: rgb(0, 0, 0);
-        border-radius: 15px;
-        transition: 1s;
-    }
-
-    p#pf {
-        width: 30vw;
-    }
-    
 }

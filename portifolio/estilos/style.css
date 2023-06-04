@@ -30,6 +30,10 @@ header .logo {
     height: 55px;
 }
 
+.divheader a:hover {
+    background: none;
+}
+
 span#burguer {
     color: white;
     padding: 30px;
@@ -47,8 +51,8 @@ menu > ul > li > a {
     color: white;
     display: block;
     text-align: center;
-    border-top: 2px solid rgb(255, 255, 255);
-    background-color: rgb(12, 16, 22);
+    border-top: 2px solid white;
+    background-color: black;
 }
 
 menu > ul > li, a:hover {
@@ -118,7 +122,7 @@ span{
 
 
 #meunome {
-    line-height: 40px;
+    line-height: 60px;
 }
 
 .button-vermais {

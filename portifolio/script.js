@@ -62,3 +62,16 @@ function vermais () {
   }
 }
 
+function vermais2 () {
+
+  let paragrafo = document.getElementById('vermais2')
+
+  if (ft2.style.display == 'block') {
+    ft2.style.display = 'none'
+    paragrafo.textContent = 'Ver Mais'
+  } else {
+    ft2.style.display = 'block'
+    paragrafo.textContent = 'Ver Menos'
+  }
+}
+
