@@ -62,16 +62,23 @@ function vermais () {
   }
 }
 
-function vermais2 () {
+function vermaisp () {
 
-  let paragrafo = document.getElementById('vermais2')
+  let ftElements = document.getElementsByClassName('ft')
+  let paragrafo = document.getElementById('vermais-p')
 
-  if (ft2.style.display == 'block') {
-    ft2.style.display = 'none'
+  for (let i = 0; i < ftElements.length; i++) {
+    let ft = ftElements[i];
+
+  if (ft.style.display == 'inline-block') {
+    ft.style.display = 'none'
     paragrafo.textContent = 'Ver Mais'
   } else {
-    ft2.style.display = 'block'
+    ft.style.display = 'inline-block'
     paragrafo.textContent = 'Ver Menos'
   }
 }
+
+
+  }
 

@@ -71,6 +71,7 @@ h1, h2{
     text-align: justify;
     display: block;
     margin: auto;
+    width: 90vw;
     padding-top: 25px;
 }
 
@@ -130,7 +131,7 @@ span{
 }
 
 .button-vermais p {
-    width: 90px;
+    width: 20vw;
     padding: 10px;
     text-align: center;
     display: block;

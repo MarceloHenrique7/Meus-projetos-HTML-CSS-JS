@@ -5,6 +5,8 @@
 div.contatos > p{
     display: block;
     margin: auto;
+    padding-top: 10px;
+    text-align: center;
 }
 
 div.contatos{
