@@ -80,6 +80,8 @@ p{
     font-size: 3.4vw;
     text-align: justify;
     width: 370px;
+    display: block;
+    margin: auto;
     
 }
 

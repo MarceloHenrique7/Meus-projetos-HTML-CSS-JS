@@ -42,8 +42,16 @@
         transition: 0.9s all;
     }
 
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    p{
+        font-size: 2vw;
+    }
     p#pf {
         width: 70vw;
+        font-size: 2vw
     }
 
     #meunome {
@@ -83,4 +91,169 @@
         text-align: justify;
     }
 
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    span#burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    menu > ul > li{
+        padding-top: 25px;
+        padding-right: 15px;
+        background: none;
+        font-size: 20px;
+        display: inline-block;
+    }
+      menu {
+        margin-right: 20px;
+    }
+    menu > ul > li > a {
+        border: none;
+        background: none;
+    }
+
+    menu > ul > li > a:hover {
+        
+        color: white;
+        background: none;
+        text-decoration: overline;
+        border-radius: 10px;
+        transition: 0.9s all;
+    }
+
+    #meunome {
+        line-height: 90px;
+    }
+
+    h1 {
+        font-size: 4.5vw;
+    }
+
+    p#pf {
+        font-size: 2vw;
+    }
+
+    p {
+        font-size: 2vw;
+    }
+
+    div.contatos p {
+        width: 60vw;
+        text-align: justify;
+    }
+
+    .foto #bol1, #bol2, #bol3{
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: inline-flex;
+        margin: auto;
+    
+    }
+    .foto > div{
+        width: 35vw;
+        height: 35vw;
+        display: inline-flex;
+        margin: auto;
+        position: relative;
+        right: 100px;
+    }
+
+    .foto {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    span#burguer {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    menu > ul > li{
+        padding-top: 25px;
+        padding-right: 15px;
+        background: none;
+        font-size: 20px;
+        display: inline-block;
+    }
+      menu {
+        margin-right: 20px;
+    }
+    menu > ul > li > a {
+        border: none;
+        background: none;
+    }
+
+    menu > ul > li > a:hover {
+        
+        color: white;
+        background: none;
+        text-decoration: overline;
+        border-radius: 10px;
+        transition: 0.9s all;
+    }
+
+    #meunome {
+        line-height: 150px;
+    }
+
+    .caracteristicas p {
+        text-align: justify;
+    }
+    
+   h1 {
+        font-size: 4.5vw;
+    }
+
+
+    p#pf {
+       font-size: 2vw;
+       padding-top: 120px;
+    }
+    p{
+        
+        font-size: 2vw;
+    }
+
+    div.contatos p {
+        width: 60vw;
+        text-align: justify;
+    }
+
+    .foto #bol1, #bol2, #bol3{
+        width: 15px;
+        height: 15px;
+        border: 1px solid black;
+        border-radius: 50%;
+        display: inline-flex;
+        margin: auto;
+    
+    }
+    .foto > div{
+        width: 35vw;
+        height: 35vw;
+        display: inline-flex;
+        margin: auto;
+        position: relative;
+        right: 100px;
+    }
+
+    .foto {
+        width: 300px;
+        height: 300px;
+
+    }
 }
