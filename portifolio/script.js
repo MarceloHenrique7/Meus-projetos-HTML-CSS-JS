@@ -47,3 +47,18 @@ function mudouTamanho() {
 }
 
 
+function vermais () {
+
+  let paragrafo = document.getElementById('vermais')
+
+  if (pf.style.display == 'block') {
+    pf.style.display = 'none'
+    paragrafo.textContent = 'Ver Mais'
+  } else {
+    pf.style.display = 'block'
+    paragrafo.textContent = 'Ver Menos'
+    
+
+  }
+}
+

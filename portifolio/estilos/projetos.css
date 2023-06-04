@@ -7,7 +7,6 @@
 .foto {
     position: relative;
     display: inline-block;
-    margin-left: 50px;
 }
 
 .foto img {
@@ -56,8 +55,8 @@
 }
 
 .foto {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: 10px;
     background-color: rgb(24, 26, 37);
     box-shadow: 1px 2px 2px 3px rgba(0, 0, 0, 0.199);
@@ -73,8 +72,8 @@ div#ft1 {
 
 
 .foto #bol1, #bol2, #bol3{
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     border: 1px solid black;
     border-radius: 50%;
     display: inline-flex;
@@ -93,12 +92,12 @@ div#ft1 {
 }
 
 .foto > div{
-    width: 14px;
-    height: 14px;
+    width: 10px;
+    height: 10px;
     display: inline-flex;
     margin: auto;
     position: relative;
-    right: 80px;
+    right: 65px;
 }
 
 

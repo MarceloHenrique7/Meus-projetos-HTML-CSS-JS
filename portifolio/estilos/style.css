@@ -10,14 +10,14 @@
 body{
     font-family: 'Quicksand';
     font-size: 25px;
-    background-image: linear-gradient(to top, rgb(3, 7, 17), hsl(244, 32%, 9%));
+    background-image: linear-gradient(to bottom, rgb(11, 13, 15), hsl(240, 33%, 2%));
     color: white;
     margin: 0px;
     padding: 0px;
 }
 
 header {
-    background-color: rgb(1, 5, 17);
+    background-color: rgb(0, 0, 0);
 }
 
 .divheader {
@@ -63,6 +63,13 @@ h1, h2{
     padding-bottom: 60px;
 }
 
+.caracteristicas p{
+    text-align: justify;
+    display: block;
+    margin: auto;
+    padding-top: 25px;
+}
+
 p{
         
     font-size: 3.4vw;
@@ -82,7 +89,7 @@ li{
 
 .minhaimg {
     border-radius: 50%;
-    margin-bottom: 80px;
+    margin-bottom: 30px;
     box-shadow: 2px 1px 5px 1px rgba(0, 0, 0, 0.39);
 }
 
@@ -101,10 +108,36 @@ span{
 }
 
 #pf{
+    display: none;
+    margin: auto;
+    padding-top: 50px;
     width: 70vw;
     font-size: 3.4vw;
     text-align: justify;
 }
+
+
+#meunome {
+    line-height: 40px;
+}
+
+.button-vermais {
+    padding-top: 50px;
+}
+
+.button-vermais p {
+    width: 90px;
+    padding: 10px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+
 
 
 
