@@ -1,5 +1,21 @@
 @charset "UTF-8";
 
+.RedesSociais {
+    width: 100%;
+    height: 230px;
+    background-color: rgb(255, 255, 255);
+}
+
+.RedesSociais a{
+    display: inline-block;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.RedesSociais{
+    
+}
 
 .RedesSociais a{
     text-align: center;
@@ -11,4 +27,11 @@
 div.RedesSociais a:hover {
     color: aqua;
     text-decoration: none;
+}
+
+div.RedesSociais > p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 80px;
 }

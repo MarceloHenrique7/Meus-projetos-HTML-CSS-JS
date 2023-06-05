@@ -16,89 +16,47 @@ span#colorh2{
     box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.555);
 }
 
-span#jscolor{
-    color: yellow;
-    font-style: normal;
-    
-}
-
-span#pycolor{
-    color: rgb(35, 226, 18);
-    font-style: normal;
-}
-span#htmlcolor{
-    color: rgb(255, 166, 0);
-    font-style: normal;
-}
-span#csscolor{
-    color: rgb(7, 226, 241);
-    font-style: normal;
-}
-#js{
-    margin-right: 240px;
-}
-
-#py{
-    
-    padding-top: 50px;
-    margin-right: 280px;
-}
-
-#html{
-    margin-right: 280px;
-}
-
-#css{
-    padding-top: 50px;
-    margin-right: 310px;
-}
-
-.progress-bar {
-    
-    width: 500px;
-    height: 20px;
-    background-color: rgba(255, 255, 255, 0.404);
+div.Linguagenseframeworks > div.box-hab {
+    width: 400px;
+    height: 380px;
+    background-color: rgb(25, 30, 37);
+    display: flex;
     margin: auto;
-    border-radius: 20px;
+    
+    border: 1px solid rgb(255, 255, 255);
 }
 
-.progress {
-    height: 100%;
-    background-color: rgb(144, 10, 221);
-    width: 0%;
-    transition: width 3.5s ease-in-out;
-    border-radius: 20px;
-}
-
-div.progress-bar {
-    width: 390px;
-    height: 18px;
-}
-
-#py, #js, #html, #css {
-        
+div.box-hab img {
+    height: 26.5%;
+    padding-top: 20px;
+    padding-left: 5px;
     display: block;
     margin: auto;
 }
 
 
-#p1 {
-    background-color: yellow;
+
+div.box-hab img.css {
+    position: relative;
+    left: 33%;
+} 
+
+div.box-hab img.javascript {
+    height: 85px;
+    position: relative;
+    left: 70%;
+} 
+
+
+div.box-hab img.nodejs {
+    position: relative;
+    left: 39%;
 }
 
-#p2 {
-    background-color: rgb(47, 255, 47);
-}
-
-#p3 {
-    background-color: orange;
-}
-
-#p4 {
-    background-color: aqua;
-}
-
-
+div.box-hab img.typescript {
+    position: relative;
+    left: 70%;
+} 
 
 
 
